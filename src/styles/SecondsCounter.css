@@ -1,0 +1,22 @@
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.counter-box {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  font-size: 1.5em;
+}
+
+.counter-box:first-child::before {
+  content: "\23F1"; /* timer symbol */
+  margin-right: 5px;
+}
