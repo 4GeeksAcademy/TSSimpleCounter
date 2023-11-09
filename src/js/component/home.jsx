@@ -1,6 +1,6 @@
 import React from "react";
-// import PropTypes from "prop-types";
-// import SecondsCounter from "./SecondsCounter";
+import PropTypes from "prop-types";
+import SecondsCounter from "./SecondsCounter";
 
 const Home= ({Counter}) => {
     <div>
